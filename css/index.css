@@ -1,0 +1,39 @@
+#grad {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(135deg, black, #716a6a);
+  z-index: -1;
+}
+
+.text {
+  color: white;
+}
+
+#text-container {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: 'Roboto Bold';
+}
+
+li {
+  font-size: 18pt;
+  font-family: 'Roboto Slab';
+  display: inline;
+}
+
+li + li:before {
+  content: ' // ';
+  white-space: pre;
+}
+
+li a {
+  color: white;
+}

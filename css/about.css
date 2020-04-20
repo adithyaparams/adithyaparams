@@ -1,0 +1,9 @@
+#grad {
+  height: 1%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background-image: linear-gradient(90deg, black, #b6a7a7);
+  z-index: -1;
+}
