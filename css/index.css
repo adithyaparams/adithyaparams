@@ -26,12 +26,6 @@ h1 {
 li {
   font-size: 18pt;
   font-family: 'Roboto Slab';
-  display: inline;
-}
-
-li + li:before {
-  content: ' // ';
-  white-space: pre;
 }
 
 li a {
