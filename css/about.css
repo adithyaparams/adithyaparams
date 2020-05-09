@@ -21,6 +21,7 @@
 #page-header {
   width: 400px;
   margin: 75px auto;
+  margin-bottom: 60px;
   text-align: center;
 }
 
@@ -34,26 +35,36 @@ h1 {
   font-family: 'Roboto Medium';
 }
 
-li {
+ul li {
   font-size: 17pt;
   font-family: 'Roboto Slab';
 }
 
 h2 {
-  font-family: 'Roboto';
   margin-bottom: 5px;
+  font-family: 'Roboto';
 }
 
-p {
+p,
+li {
   font-size: 14pt;
   font-family: 'Roboto';
 }
 
-li a {
+#page-header li a {
   color: black;
 }
 
-p a {
-  text-decoration: none;
+#page-body li a {
+  font-size: 16pt;
   color: #0275d8;
+}
+
+p a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+#page-body ul {
+  list-style-position: inside;
 }
