@@ -8,32 +8,52 @@
   z-index: -1;
 }
 
-#page-body {
-  position: absolute;
-  width: 68%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+#back {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  background-color: #fcfcfc;
+  z-index: -2;
 }
 
-#navbar {
-  position: absolute;
-  top: 22px;
-  right: 0px;
+#page-header {
+  width: 400px;
+  margin: 75px auto;
+  text-align: center;
+}
+
+#page-body {
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 h1 {
-  position: absolute;
-  font-family: 'Roboto Slab';
-  top: 12px;
+  font-size: 28pt;
+  font-family: 'Roboto Medium';
 }
 
 li {
+  font-size: 17pt;
+  font-family: 'Roboto Slab';
+}
+
+h2 {
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+}
+
+p {
   font-size: 14pt;
   font-family: 'Roboto';
 }
 
 li a {
   color: black;
+}
+
+p a {
   text-decoration: none;
+  color: #0275d8;
 }
